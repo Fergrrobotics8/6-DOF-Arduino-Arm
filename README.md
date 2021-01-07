@@ -1,5 +1,5 @@
 # 6-DOF-Arduino-Arm
-End-of-degree project.
+End-of-degree project. (Revision pendant)
 
 THIS DOCUMENT IS A DESCRIPTION OF THE WORK DONE :D
 
