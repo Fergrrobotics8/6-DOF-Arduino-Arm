@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include <stdlib.h>
 
-
-#define M_PI 3.14159265358979323846
 
   
 	class RobotArm
@@ -19,7 +16,7 @@
    void initDH(int n, int m);
    void genMat(float **M, int n, int m);
    void matZero(float** A, int n, int m);
-   void genQi(float *qi, int n);
+   void genVec(float *qi, int n);
    void showVec(float *qi, int n, char label);
    
 //PRUEBAS
@@ -45,6 +42,13 @@
 			
 	};
 	
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+
+
+#define M_PI 3.14159265358979323846
+
 
 RobotArm::RobotArm(int dof)
 {
@@ -304,6 +308,10 @@ void RobotArm::matZero(float** A, int n, int m)
 			printf("\n");
 		}
 	}
+
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
 
 
 RobotArm robot(6);
